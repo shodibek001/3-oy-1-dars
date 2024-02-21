@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+}
+table{
+    border: 1px solid rgb(0, 0, 0);
+     border-collapse: collapse; 
+}
+table:hover{
+    background-color: rgb(255, 0, 183);
+    color: rgb(0, 255, 106);
+    cursor: pointer;
+}
+th,td{
+    border: 1px solid blueviolet;
+}
+.text_1{
+    background-color: aqua;
+    color: black;
+}
+.text_2{
+background-color: chartreuse;
+color: rgb(255, 255, 255);
+}
+.text_3{
+    background-color: rgb(255, 0, 179);
+    color: rgb(225, 215, 215);
+}
+.text_4{
+    background-color: rgb(25, 0, 255);
+    color: rgb(255, 230, 0);
+}
+.text_5{ 
+    background-color: rgb(81, 0, 255);
+    color: rgb(0, 255, 4);
+}
